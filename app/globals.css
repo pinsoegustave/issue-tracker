@@ -1,4 +1,10 @@
 @tailwind base;
+@import "@radix-ui/themes/styles.css";
+
 @tailwind components;
 @tailwind utilities;
 
+
+.radix-themes {
+    --default-font-family: var(--font-inter);
+}
